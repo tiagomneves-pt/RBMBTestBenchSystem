@@ -1,8 +1,15 @@
+using RBMBTestBenchSystem.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using RBMBTestBenchSystem.Components;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("SimulationsDB");
+
 
 // Add services to the container.
+builder.Services.AddServerSideBlazor();
+builder.Services.AddDbContextFactory<DataContext>(options => options.UseSqlite(connectionString));
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 

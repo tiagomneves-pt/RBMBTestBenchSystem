@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/home/tiago/Projectos/RiderProjects/JuniorDevExercises/RBMBTestBenchSystem/obj/Debug/net8.0/scopedcss/projectbundle/RBMBTestBenchSystem.bundle.scp.css",
+      "PackagePath": "staticwebassets/RBMBTestBenchSystem.bundle.scp.css"
+    },
+    {
+      "Id": "/home/tiago/Projectos/RiderProjects/JuniorDevExercises/RBMBTestBenchSystem/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/home/tiago/Projectos/RiderProjects/JuniorDevExercises/RBMBTestBenchSystem/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/tiago/Projectos/RiderProjects/JuniorDevExercises/RBMBTestBenchSystem/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/tiago/Projectos/RiderProjects/JuniorDevExercises/RBMBTestBenchSystem/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.RBMBTestBenchSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.RBMBTestBenchSystem.props",
+      "PackagePath": "build\\RBMBTestBenchSystem.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.RBMBTestBenchSystem.props",
+      "PackagePath": "buildMultiTargeting\\RBMBTestBenchSystem.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.RBMBTestBenchSystem.props",
+      "PackagePath": "buildTransitive\\RBMBTestBenchSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

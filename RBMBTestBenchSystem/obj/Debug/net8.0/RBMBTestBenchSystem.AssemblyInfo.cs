@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RBMBTestBenchSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+496268e9da0ea036203e7a8f8da07c7443cbb60e")]
 [assembly: System.Reflection.AssemblyProductAttribute("RBMBTestBenchSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RBMBTestBenchSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,41 @@
+@page "/"
+<h3>TestBench</h3>
+
+<form>
+    <div class="form-group">
+        <div class="row">
+            <div class="col-2">
+                <label for="bearingModelSelectionFormControl">Bearing model</label>
+                <select class="form-control" id="bearingModelSelectionFormControl">
+                    <option>GenericBearing1</option>
+                    <option>GenericBearing2</option>
+                    <option>GenericBearing3</option>
+                    <option>GenericBearing4</option>
+                    <option>GenericBearing5</option>
+                </select>
+            </div>
+            <div class="col-8">
+                <label for="rotationSpeedRangeInput">Bearing rotation speed</label>
+                <input type="range" class="form-control-range" max="100" id="rotationSpeedRangeInput" oninput="rotationSpeedTextInput.value=rotationSpeedRangeInput.value">
+                <input id="rotationSpeedTextInput" step="5" type="number" oninput="rotationSpeedRangeInput.value=rotationSpeedTextInput.value"/>
+            </div>
+        </div>
+        <div class="row">
+            
+        </div>
+        <div class="row">
+            <div class="col">
+                
+            </div>
+        </div>
+        <div class="row mt-5">
+            <button class="btn btn-primary">Start simulation</button>
+        </div>
+
+
+    </div>
+</form>
+
+@code {
+    
+}
